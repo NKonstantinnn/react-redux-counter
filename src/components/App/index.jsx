@@ -1,6 +1,6 @@
 import React from 'react';
 
-import Counter from './Counter';
+import {Counter} from '../Counter';
 
 function App() {
   return (

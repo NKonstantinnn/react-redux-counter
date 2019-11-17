@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Counter = () => {
+export const Counter = () => {
     return (
       <div className="jumbotron">
         <h2>0</h2>
@@ -13,5 +13,3 @@ const Counter = () => {
       </div>
     );
 };
-
-export default Counter;
