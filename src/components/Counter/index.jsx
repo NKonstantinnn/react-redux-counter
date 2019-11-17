@@ -1,9 +1,9 @@
 import React from 'react';
 
-export const Counter = () => {
+export const Counter = ({count}) => {
     return (
       <div className="jumbotron">
-        <h2>0</h2>
+        <h2>{count}</h2>
         <button className="btn btn-primary btn-lg">
             DEC
         </button>
